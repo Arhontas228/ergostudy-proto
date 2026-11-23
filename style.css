@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #F4F6F9;
+  --card-bg: #FFFFFF;
+  --sidebar-bg: #1E293B; /* Темный сайдбар */
+  --text-main: #1E293B;
+  --text-muted: #64748B;
+  --accent: #0EA5E9; /* Бирюзовый акцент вместо синего */
+  --accent-hover: #0284C7;
+  --success: #10B981;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
+
+/* Сделайте таймер круглым через border-radius: 50% и border */
+.timer-circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 8px solid var(--accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
